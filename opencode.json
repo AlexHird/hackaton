@@ -1,0 +1,18 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "github-copilot/gpt-5.4",
+  "share": "disabled",
+  "instructions": [],
+  "agent": {
+    "build": {
+      "color": "#ea6962"
+    },
+    "frontend": {
+      "description": "Always use this agent for frontend UI tasks.",
+      "prompt": "{file:./.opencode/prompts/frontend.md}",
+      "model": "github-copilot/claude-opus-4.6",
+      "color": "#d3869b",
+      "mode": "all"
+    },
+  }
+}

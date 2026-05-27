@@ -1,0 +1,6 @@
+{
+  "github.copilot.chat.agent.enabled": true,
+  "chat.agentSkillsLocations": {
+    ".agents/skills": true
+  }
+}
